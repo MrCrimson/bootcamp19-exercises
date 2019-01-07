@@ -4,11 +4,12 @@
 const arr = [0, 1, 2, 3, 4];
 
 const triple = () => {
-  // TODO
+  return this * 3;
 };
 
 Array.prototype.map = function(fun) {
-  // TODO
+  return this.forEach(fun);
 };
 
+console.log(triple(1));
 console.log(arr.map(triple));

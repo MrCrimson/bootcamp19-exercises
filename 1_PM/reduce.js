@@ -4,9 +4,13 @@
 
 const arr = [0, 1, 2, 3, 4];
 
-const sum = (acc, cur) => {};
+const sum = (acc, cur) => {
+    return acc + cur;
+};
 
-Array.prototype.reduce = function(fun, init) {};
+Array.prototype.reduce = function(fun, init) {
+    return this.reduce(sum(), 0);
+};
 
 const total = arr.reduce(sum, 0);
 console.log(total);
