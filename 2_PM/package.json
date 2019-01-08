@@ -1,0 +1,17 @@
+{
+  "name": "2_PM",
+  "version": "1.0.0",
+  "description": "We will be using our new skills with Node.js to create a few programs which hook up to the Google Maps API. The objection of this exercise is to familiarize you with working on a Node.js project, working with external packages, and importing/exporting between different files.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "dotenv": "^6.2.0"
+  }
+}
